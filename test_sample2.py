@@ -10,5 +10,5 @@ def test_file2_method1():
 @pytest.mark.set2
 def test_file2_method2():
 	x=5
-	y=6
+	y=7
 	assert x+1 == y,"test failed"
