@@ -1,6 +1,7 @@
 import pytest
 
-@pytest.fixture()
-def test_fix():
-    return [6,5]
 
+@pytest.fixture()
+def setup_fixture():
+    a = 4
+    return a
